@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("2z", "Ocean")
+
+--MAIN
+local ScriptHub = Window:NewTab("Scripts")
+local ScriptSection = ScriptHub:NewSection("Scripts")
+
+
+ScriptSection:NewButton("My Restaurant Script)", "My Restaurant Script", function()
+    loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
+end)
+
+
+
+ScriptSection:NewButton("(Combat Warriors Script)", "Combat Warriors Script", function()
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://projecthook.xyz/scripts/new-free.lua"))()"))()
+end)
+
+
+
+ScriptSection:NewButton("(Pls Donate Script (Booth Customization))", "Pls Donate Script", function()
+    loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()"))()"))()
+end)
+
+
+
+ScriptSection:NewButton("(Bid Battles Script))", "Bid Battles Script", function()
+    loadstring(game:HttpGet("loadstring(game:HttpGet('loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()'))()"))()"))()
+end)
+
+
+
+ScriptSection:NewButton("(Tapping Simulator Script))", "Tapping Simulator Script", function()
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/OverK2LL/Tapping-Simulator/main/Source"))()"))()"))()'))()"))()"))()
+end)
+
+
+
+--Credits
+local Credit = Window:NewTab("Credits")
+local CreditSection = Credit:NewSection("Gui Made by 2z")
+local CreditSection2 = Credit:NewSection("https://discord.gg/jRPQteUM")
